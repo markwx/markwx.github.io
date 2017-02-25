@@ -7,44 +7,44 @@
       <link></link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Sat, 25 Feb 2017 12:00:00 PST</pubDate>
+      <pubDate>Sat, 25 Feb 2017 12:05:00 PST</pubDate>
 
-      <lastBuildDate>Sat, 25 Feb 2017 12:00:00 PST</lastBuildDate>
+      <lastBuildDate>Sat, 25 Feb 2017 12:05:00 PST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.6.2</generator>
       <ttl>5.000000 Minutes</ttl>
       
       <item>
-         <title>Weather Conditions at 02/25/2017 12:00:00 PM</title>
+         <title>Weather Conditions at 02/25/2017 12:05:00 PM</title>
          <link></link>
          <description>
-           Outside temperature: 40.4&#176;F; 
-           Barometer: 30.149 inHg; 
-           Wind: 3 mph from 183&#176;; 
+           Outside temperature: 40.1&#176;F; 
+           Barometer: 30.219 inHg; 
+           Wind: 3 mph from 158&#176;; 
            Rain rate: 0.00 in/h; 
-           Inside temperature: 71.8&#176;F
+           Inside temperature: 72.4&#176;F
          </description>
-         <pubDate>Sat, 25 Feb 2017 12:00:00 PST</pubDate>
-	     <geo:lat>47.386639</geo:lat>
-    	 <geo:long>-122.029089</geo:long>
+         <pubDate>Sat, 25 Feb 2017 12:05:00 PST</pubDate>
+	     <geo:lat>47.3493007</geo:lat>
+    	 <geo:long>-122.0442413</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                02/25/2017 12:00:00 PM<br/>
-             Outside Temperature: 40.4&#176;F<br/>
-             Inside Temperature:  71.8&#176;F<br/>
-             Wind Chill:          39.5&#176;F<br/>
-             Heat Index:          40.4&#176;F<br/>
-             Dewpoint:            32.1&#176;F<br/>
+             Time:                02/25/2017 12:05:00 PM<br/>
+             Outside Temperature: 40.1&#176;F<br/>
+             Inside Temperature:  72.4&#176;F<br/>
+             Wind Chill:          40.1&#176;F<br/>
+             Heat Index:          40.1&#176;F<br/>
+             Dewpoint:            31.8&#176;F<br/>
              Humidity:            72%<br/>
-             Barometer:           30.149 inHg<br/>
-             Wind:                3 mph from 183&#176;<br/>
+             Barometer:           30.219 inHg<br/>
+             Wind:                3 mph from 158&#176;<br/>
              Rain Rate:           0.00 in/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 02/25/2017 12:00:00 PM</title>
+         <title>Daily Weather Summary as of 02/25/2017 12:05:00 PM</title>
          <link></link>
          <description>
 	        Min outside temperature: 28.9&#176;F at 05:46:50 AM;
@@ -56,9 +56,9 @@
             Max wind :               6 mph from    N/A at 09:25:18 AM;
             Rain today:              0.00 in
          </description>
-         <pubDate>Sat, 25 Feb 2017 12:00:00 PST</pubDate>
-	     <geo:lat>47.386639</geo:lat>
-    	 <geo:long>-122.029089</geo:long>
+         <pubDate>Sat, 25 Feb 2017 12:05:00 PST</pubDate>
+	     <geo:lat>47.3493007</geo:lat>
+    	 <geo:long>-122.0442413</geo:long>
  		 <content:encoded><![CDATA[
            <p>
              Day:                     25 Feb 2017<br/>
@@ -75,7 +75,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 02/25/2017 12:00:00 PM</title>
+         <title>Monthly Weather Summary as of 02/25/2017 12:05:00 PM</title>
          <link>/month.html</link>
          <description>
 	        Min outside temperature: 24.4&#176;F at 02/01/2017 05:17:05 AM;
@@ -87,7 +87,7 @@
             Max wind :               21 mph from    N/A at 02/01/2017 09:11:49 PM;
             Rain total for month:    6.38 in
          </description>
-         <pubDate>Sat, 25 Feb 2017 12:00:00 PST</pubDate>
+         <pubDate>Sat, 25 Feb 2017 12:05:00 PST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   February 2017<br/>
@@ -104,7 +104,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 02/25/2017 12:00:00 PM</title>
+         <title>Yearly Weather Summary as of 02/25/2017 12:05:00 PM</title>
          <link>/year.html</link>
          <description>
 	        Min outside temperature: 23.7&#176;F at 01/15/2017 07:41:28 AM;
@@ -116,7 +116,7 @@
             Max wind :               21 mph from    N/A at 02/01/2017 09:11:49 PM;
             Rain total for year:     7.64 in
          </description>
-         <pubDate>Sat, 25 Feb 2017 12:00:00 PST</pubDate>
+         <pubDate>Sat, 25 Feb 2017 12:05:00 PST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2017<br/>
