@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
+        
+        <title>Maple Valley, WA Current Weather Conditions</title>
+        
+        <!-- Open Graph -->
+        <meta property="og:site_name" content="Maple Valley, WA Current Weather Conditions" />
+        <meta property="og:description" content="Current Weather Conditions in Maple Valley, WA - weather web site powered by weewx" />
+		<meta property="og:type" content="website" /> 
+
+        <!-- Icons -->
+        <link rel="icon" href="favicon.ico" type="image/png">
+		<link rel="apple-touch-icon" href="touch-icon.png"/>
+        
+        <!-- Styles -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        
+        <!-- Skripte -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        
+        <script type="text/javascript">
+            function openNoaaFile(date)
+            {
+                var url = "NOAA/NOAA-";
+                url = url + date;
+                url = url + ".txt";
+                if(date !== "Monthly summary" && date !== "Yearly summary") {
+                    window.location=url;
+                }
+            }
+        </script>
+    </head>
+    <body>
+<script type="text/javascript">
+function openNav() {
+    document.getElementById("Menu").style.width = "200px";
+}
+function closeNav() {
+    document.getElementById("Menu").style.width = "0";
+}
+</script>
+<div id="Menu" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="./index.html">Current</a>
+<a href="./week.html">Week</a>
+<a href="./month.html">Month</a>
+<a href="./year.html">Year</a>
+</div>
+<button onclick="openNav()"class="dropbtn">Menu</button>
+        <header>
+          <INPUT TYPE="button" onClick="history.go(0)" VALUE="Refresh" class="button">
+            <div class="container-fix" >
+                <div class="h-left" >
+                <h1><i class="fa fa-cloud" ></i> Maple Valley, WA</h1>
+                <p>47&deg; 23.20' N | 122&deg; 01.75' W | 490 feet | <a href="https://www.google.com/maps/?q=Maple Valley, WA" target="_blank" ><i class="fa fa-map-marker" ></i> Show on map</a></p>
+                <h2>Current Weather Conditions</h2>
+                <p><i class="fa fa-clock-o" ></i> 02/25/2017 11:55:00 AM</p>
+                </div>
+                
+                <div class="h-right" >
+                    <table>
+                        <tr><td><b>Station:</b></td><td>AcuRite 01536</td></tr>
+                        <tr><td><b>Software:</b></td><td><a href="http://weewx.com/" target="_blank" >weewx v3.6.2</a></td></tr>
+                        <tr><td><b>Weewx uptime:</b></td><td>0 Days, 2 Hours, 38 Minutes</td></tr>
+                        <tr><td><b>Server uptime:</b></td><td>0 Days, 0 Hours, 50 Minutes</td></tr>
+                    </table>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li class="active" ><a href="index.html" >Current</a></li>
+                        <li><a href="week.html" >Week</a></li>
+                        <li><a href="month.html" >Month</a></li>
+                        <li><a href="year.html" >Year</a></li>
+                        <li><a href="RSS/weewx_rss.xml" >RSS</a></li>
+                        <li><select name="noaaselect" onchange="openNoaaFile(value)">
+                                <option>Monthly summary</option>
+                                    <option value="2017-01">2017-01</option>
+                                    <option value="2017-02">2017-02</option>
+                            </select></li>
+                        <li><select name="noaaselect" onchange="openNoaaFile(value)">
+                                <option>Yearly summary</option>
+                                    <option value="2017">2017</option>
+                            </select></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="main" >
+        <div class="container" >
+            
+            <div class="left" >
+                
+                <div class="card" >
+                    <h1><i class="fa fa-sun-o m-orange" ></i> Current Conditions</h1>
+                    <table class="tablespacer">
+                        <tr><td>Outside Temperature</td><td>40.2&#176;F</td></tr>
+                        <tr><td>Wind Chill</td><td>40.0&#176;F</td></tr>
+                        <tr><td>Heat Index</td><td>40.2&#176;F</td></tr>
+                        <tr><td>Dewpoint</td><td>32.0&#176;F</td></tr>
+                        <tr><td>Humidity</td><td>72%</td></tr>
+                        <tr><td>Barometer</td><td>30.149 inHg</td></tr>
+                        <tr><td>Barometer Trend (3 Hours)</td><td>-0.098 inHg</td></tr>
+                        <tr><td>Wind</td><td>3 mph SW (215&#176;)</td></tr>
+                        <tr><td>Rain Rate</td><td>0.00 in/h</td></tr>
+                        <tr><td>Inside Temperature</td><td>71.4&#176;F</td></tr>
+                    </table>
+                </div>
+
+                <div class="card" >
+                    <h1><i class="fa fa-moon-o m-grau" ></i> Since Midnight</h1>
+                    <table class="tablespacer">
+                        <tr><td>High Temperature</td><td>41.2&#176;F</td><td>09:32:14 AM</td></tr>
+                        <tr><td>Low Temperature</td><td>28.9&#176;F</td><td>05:46:50 AM</td></tr>
+                        <tr><td>High Heat Index</td><td>41.2&#176;F</td><td>09:32:14 AM</td></tr>
+                        <tr><td>Low Wind Chill</td><td>28.9&#176;F</td><td>05:46:50 AM</td></tr>
+                        <tr><td>High Dewpoint</td><td>32.5&#176;F</td><td>09:32:14 AM</td></tr>
+                        <tr><td>Low Dewpoint</td><td>26.4&#176;F</td><td>03:38:56 AM</td></tr>
+                        <tr><td>High Humidity</td><td>91%</td><td>05:26:45 AM</td></tr>
+                        <tr><td>Low Humidity</td><td>70%</td><td>09:24:42 AM</td></tr>
+                        <tr><td>High Barometer</td><td>30.255 inHg</td><td>03:56:49 AM</td></tr>
+                        <tr><td>Low Barometer</td><td>30.149 inHg</td><td>11:52:33 AM</td></tr>
+                        <tr><td>Today's Rain</td><td>0.00 in</td><td></td></tr>
+                        <tr><td>High Rain Rate</td><td>0.00 in/h</td><td>12:00:16 AM</td></tr>
+                        <tr><td>High Wind</td><td>6 mph    N/A</td><td>09:25:18 AM</td></tr>
+                        <tr><td>Average Wind</td><td>0 mph</td><td></td></tr>
+                        <tr><td>RMS Wind</td><td>1 mph</td><td></td></tr>
+                        <tr><td>Vector Average Speed</td><td>1 mph</td><td></td></tr>
+                        <tr><td>Vector Average Direction</td><td>173&#176;</td><td></td></tr>
+                        <tr><td>High Inside Temperature</td><td>71.5&#176;F</td><td>11:54:33 AM</td></tr>
+                        <tr><td>Low Inside Temperature</td><td>67.3&#176;F</td><td>04:38:00 AM</td></tr>
+                    </table>
+                </div>
+                
+                <div class="card" >                    
+                    <a href="https://www.wunderground.com/wundermap/?radar=1" target="_blank">
+                    <img src="https://icons.wxug.com/data/weather-maps/radar/united-states/tacoma-washington-region-current-radar.gif" alt="Radar" id="radar" class="space small" />
+                    </a>
+                    
+                    <h3>
+                        
+                        <a id="btn1" class="cpointer" >Image / Animation</a>
+                        <script>    
+                            function changeRadar() {
+                                if(document.getElementById("radar").src == "https://icons.wxug.com/data/weather-maps/radar/united-states/tacoma-washington-region-current-radar.gif") {
+                                    document.getElementById("radar").src = "";
+                                } else {
+                                    document.getElementById("radar").src = "https://icons.wxug.com/data/weather-maps/radar/united-states/tacoma-washington-region-current-radar.gif";
+                                }
+                            }
+                            
+                            var el = document.getElementById('btn1');
+                            el.onclick = changeRadar;
+                        </script>
+                    
+                        | <a href="" target="_blank" ></a>
+                    </h3>
+                    
+                </div>
+                
+                <div class="card" >
+                    <a href="" target="_blank">
+                    <img src="" alt="Lightning Map" class="space small" />
+                    </a>
+                </div>
+
+            </div>
+            
+            <div class="right" >
+
+                <div class="card" >
+                    <h1><i class="fa fa-star-o m-rot" ></i> Almanac</h1>
+                    <table>
+                        <tr><td>Sunrise:</td><td>06:54:35 AM</td></tr>
+                        <tr><td>Sunset:</td><td>05:47:33 PM</td></tr>
+                        <tr><td>Moon Phase:</td><td>New<br/>(1% full)</td></tr>
+                    </table>
+                </div>
+                
+                <div class="card cc graphs" >
+                    <h1><i class="fa fa-line-chart m-gruen" ></i> Graphs</h1>
+                    
+                    <img src="daytempdew.png" alt="temperatures" />
+                    <img src="daytempchill.png" alt="heatchill" />
+                    <img src="dayrain.png" alt="rain" />
+                    <img src="daywind.png" alt="wind" />
+                    <img src="daybarometer.png" alt="barometer"/>
+                    <img src="daywinddir.png" alt="Hi Wind" />
+                    <img src="dayinside.png" alt="Inside" />
+                    <img src="daywindvec.png" alt="Wind Vector" />
+                    <img src="dayrx.png" alt="day rx percent"/>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+
+    </body>
+</html>
+

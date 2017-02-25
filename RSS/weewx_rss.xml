@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<rss version="2.0" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+   <channel>
+      <title>Maple Valley, WA, Weather Conditions</title>
+      <link></link>
+      <description>Current conditions, and daily, monthly, and yearly summaries</description>
+      <language>en-us</language>
+      <pubDate>Sat, 25 Feb 2017 11:55:00 PST</pubDate>
+
+      <lastBuildDate>Sat, 25 Feb 2017 11:55:00 PST</lastBuildDate>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+      <generator>weewx 3.6.2</generator>
+      <ttl>5.000000 Minutes</ttl>
+      
+      <item>
+         <title>Weather Conditions at 02/25/2017 11:55:00 AM</title>
+         <link></link>
+         <description>
+           Outside temperature: 40.2&#176;F; 
+           Barometer: 30.149 inHg; 
+           Wind: 3 mph from 215&#176;; 
+           Rain rate: 0.00 in/h; 
+           Inside temperature: 71.4&#176;F
+         </description>
+         <pubDate>Sat, 25 Feb 2017 11:55:00 PST</pubDate>
+	     <geo:lat>47.386639</geo:lat>
+    	 <geo:long>-122.029089</geo:long>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Time:                02/25/2017 11:55:00 AM<br/>
+             Outside Temperature: 40.2&#176;F<br/>
+             Inside Temperature:  71.4&#176;F<br/>
+             Wind Chill:          40.0&#176;F<br/>
+             Heat Index:          40.2&#176;F<br/>
+             Dewpoint:            32.0&#176;F<br/>
+             Humidity:            72%<br/>
+             Barometer:           30.149 inHg<br/>
+             Wind:                3 mph from 215&#176;<br/>
+             Rain Rate:           0.00 in/h<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+      <item>
+         <title>Daily Weather Summary as of 02/25/2017 11:55:00 AM</title>
+         <link></link>
+         <description>
+	        Min outside temperature: 28.9&#176;F at 05:46:50 AM;
+         	Max outside temperature: 41.2&#176;F at 09:32:14 AM;
+	        Min inside temperature:  67.3&#176;F at 04:38:00 AM;
+	        Max inside temperature:  71.5&#176;F at 11:54:33 AM;
+	        Min barometer:           30.149 inHg at 11:52:33 AM;
+	        Max barometer:           30.255 inHg at 03:56:49 AM;
+            Max wind :               6 mph from    N/A at 09:25:18 AM;
+            Rain today:              0.00 in
+         </description>
+         <pubDate>Sat, 25 Feb 2017 11:55:00 PST</pubDate>
+	     <geo:lat>47.386639</geo:lat>
+    	 <geo:long>-122.029089</geo:long>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Day:                     25 Feb 2017<br/>
+	         Min Outside Temperature: 28.9&#176;F at 05:46:50 AM<br/>
+	         Max Outside Temperature: 41.2&#176;F at 09:32:14 AM<br/>
+	         Min Inside Temperature:  67.3&#176;F at 04:38:00 AM<br/>
+	         Max Inside Temperature:  71.5&#176;F at 11:54:33 AM<br/>
+	         Min Barometer:           30.149 inHg at 11:52:33 AM<br/>
+	         Max Barometer:           30.255 inHg at 03:56:49 AM<br/>
+             Max Wind :               6 mph from    N/A at 09:25:18 AM<br/>
+             Rain today:              0.00 in<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+      <item>
+         <title>Monthly Weather Summary as of 02/25/2017 11:55:00 AM</title>
+         <link>/month.html</link>
+         <description>
+	        Min outside temperature: 24.4&#176;F at 02/01/2017 05:17:05 AM;
+         	Max outside temperature: 63.7&#176;F at 02/14/2017 02:19:39 PM;
+	        Min inside temperature:  65.0&#176;F at 02/23/2017 12:34:13 AM;
+	        Max inside temperature:  71.5&#176;F at 02/25/2017 11:54:33 AM;
+	        Min barometer:           29.201 inHg at 02/05/2017 10:01:58 PM;
+	        Max barometer:           30.527 inHg at 02/11/2017 06:28:51 PM;
+            Max wind :               21 mph from    N/A at 02/01/2017 09:11:49 PM;
+            Rain total for month:    6.38 in
+         </description>
+         <pubDate>Sat, 25 Feb 2017 11:55:00 PST</pubDate>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Month:                   February 2017<br/>
+	         Max Outside Temperature: 63.7&#176;F at 02/14/2017 02:19:39 PM<br/>
+	         Min Outside Temperature: 24.4&#176;F at 02/01/2017 05:17:05 AM<br/>
+	         Max Inside Temperature:  71.5&#176;F at 02/25/2017 11:54:33 AM<br/>
+	         Min Inside Temperature:  65.0&#176;F at 02/23/2017 12:34:13 AM<br/>
+	         Min Barometer:           29.201 inHg at 02/05/2017 10:01:58 PM<br/>
+	         Max Barometer:           30.527 inHg at 02/11/2017 06:28:51 PM<br/>
+             Max Wind :               21 mph from    N/A at 02/01/2017 09:11:49 PM<br/>
+             Rain total for month:    6.38 in<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+      <item>
+         <title>Yearly Weather Summary as of 02/25/2017 11:55:00 AM</title>
+         <link>/year.html</link>
+         <description>
+	        Min outside temperature: 23.7&#176;F at 01/15/2017 07:41:28 AM;
+         	Max outside temperature: 63.7&#176;F at 02/14/2017 02:19:39 PM;
+	        Min inside temperature:  65.0&#176;F at 02/23/2017 12:34:13 AM;
+	        Max inside temperature:  71.5&#176;F at 02/25/2017 11:54:33 AM;
+	        Min barometer:           29.056 inHg at 01/20/2017 01:10:00 PM;
+	        Max barometer:           30.653 inHg at 01/27/2017 10:05:00 AM;
+            Max wind :               21 mph from    N/A at 02/01/2017 09:11:49 PM;
+            Rain total for year:     7.64 in
+         </description>
+         <pubDate>Sat, 25 Feb 2017 11:55:00 PST</pubDate>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Year:                    2017<br/>
+	         Max Outside Temperature: 63.7&#176;F at 02/14/2017 02:19:39 PM<br/>
+	         Min Outside Temperature: 23.7&#176;F at 01/15/2017 07:41:28 AM<br/>
+	         Max Inside Temperature:  71.5&#176;F at 02/25/2017 11:54:33 AM<br/>
+	         Min Inside Temperature:  65.0&#176;F at 02/23/2017 12:34:13 AM<br/>
+	         Min Barometer:           29.056 inHg at 01/20/2017 01:10:00 PM<br/>
+	         Max Barometer:           30.653 inHg at 01/27/2017 10:05:00 AM<br/>
+             Max Wind :               21 mph from    N/A at 02/01/2017 09:11:49 PM<br/>
+             Rain total for year:     7.64 in<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+   </channel>
+</rss>
+
